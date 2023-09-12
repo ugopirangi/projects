@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topo{
+    background-color: #2f86d6;
+    padding: 35px 0px;
+}
+
+.content-topo{
+    width: 1024px;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+}
+
+.logo-topo{
+    width: 200px; 
+}
+
+.logo-topo img{
+    height: 70px;
+}
+
+.logo-topo h1{
+    position: absolute; 
+    display: block;
+    left: 82px;
+    top: 0px;
+    max-width: max-content
+}
+
+.logo-topo h2{
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 82px;
+    max-width: max-content
+}
+
+.links-topo{
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.links-topo a{
+    font-size: 18px;
+    color: #233032;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.tabela{
+    padding: 80px 0px 400px;
+    height: fit-content;
+    position: relative;
+    margin: 0px auto; 
+    align-items: center;
+}
+
+.content-tabela{
+    width: 1024px;
+    display: flex;
+    position: relative;
+    margin: 0px auto;
+    height: 700px;
+
+}
+
+.primeira-celula,
+.celula-cabeçalho{
+    background-color: #dedede;
+    text-align: center;
+    font-weight: 300;
+}
+
+.celula-cabeçalho{
+    height: 80px;
+}
+
+.primeira-celula{
+    width: 350px;
+    height: 60px;
+}
+
+td{
+    text-align: center;
+    width: 200px;
+}
+
+.marcador-azul{
+    background-color: #2f86d6;
+    display: block;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 0px auto;
+}
+
+.secao-rodape{
+    padding: 30px 0px 0px 0px;
+    background-color: #2f86d6;
+}
+
+.logo-rodape{
+    width: fit-content; 
+    margin: 0px auto;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-rodape img{
+    height: 100px;
+}
+
+.logo-rodape h2{
+    font-size: 16px;
+    color: #fff;
+}
+
+.direita-logo{
+    margin-left: 10px;
+}
+
+.infos-rodape{
+    width: 1024px;
+    display: block;
+    position: relative;
+    margin: 0px auto 30px ;
+    height: 50%;
+
+}
+
+.infos-rodape p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.rodape{
+    text-align: center;
+    background-color: #dedede;
+    height: 80px;
+    font-size: 18px;
+}
+
+.rodape p{
+    position: relative;
+    top: 30%;
+}
